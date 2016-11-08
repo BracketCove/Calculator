@@ -9,13 +9,15 @@
     tools:context="com.wiseass.calculator.DisplayFragment">
 
     <ImageButton
+        style="@style/ImageButtonDisplay"
         android:id="@+id/imb_delete"
         android:layout_width="72dp"
         android:layout_height="72dp"
-        android:src=""
+        android:src="@drawable/ic_clear_black_36dp"
         />
 
     <HorizontalScrollView
+        style="@style/ScrollViewDisplay"
         android:id="@+id/scv_display"
         android:layout_width="match_parent"
         android:layout_height="72dp"
@@ -24,6 +26,7 @@
         >
 
         <TextView
+            style="@style/TextViewDisplay"
             android:id="@+id/lbl_display"
             android:layout_width="wrap_content"
             android:layout_height="72dp"

@@ -15,6 +15,7 @@
         >
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_seven"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -23,6 +24,7 @@
             />
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_eight"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -31,6 +33,7 @@
             />
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_nine"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -39,6 +42,7 @@
             />
 
         <Button
+            style="@style/ButtonOperation"
             android:id="@+id/btn_operator_divide"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -56,6 +60,7 @@
         >
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_four"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -64,6 +69,7 @@
             />
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_five"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -72,6 +78,7 @@
             />
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_six"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -80,6 +87,7 @@
             />
 
         <Button
+            style="@style/ButtonOperation"
             android:id="@+id/btn_operator_multiply"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -97,6 +105,7 @@
         >
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_one"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -105,6 +114,7 @@
             />
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_two"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -113,6 +123,7 @@
             />
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_three"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -121,6 +132,7 @@
             />
 
         <Button
+            style="@style/ButtonOperation"
             android:id="@+id/btn_operator_subtract"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -138,6 +150,7 @@
         >
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_number_zero"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -146,6 +159,7 @@
             />
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_decimal"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -154,6 +168,7 @@
             />
 
         <Button
+            style="@style/ButtonNumberPad"
             android:id="@+id/btn_evaluate"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -162,6 +177,7 @@
             />
 
         <Button
+            style="@style/ButtonOperation"
             android:id="@+id/btn_operator_add"
             android:layout_width="0dp"
             android:layout_height="match_parent"
