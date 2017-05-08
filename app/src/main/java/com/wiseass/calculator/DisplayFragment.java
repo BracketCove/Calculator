@@ -16,6 +16,12 @@ import butterknife.OnLongClick;
 
 
 /**
+ * Why seperate the UI (View) into two Fragments?
+ *
+ * In this case, I am attempting to apply the Single Responsibility Principle.
+ *
+ * This View is responsible for Displaying the result of Inputs to the InputFragment.
+ *
  * A simple {@link Fragment} subclass.
  */
 public class DisplayFragment extends Fragment implements CalculatorContract.PublishToView {

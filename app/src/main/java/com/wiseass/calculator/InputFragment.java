@@ -13,6 +13,8 @@ import butterknife.OnClick;
 
 
 /**
+ * This View is responsible for accepting Commands from the User.
+ *
  * A simple {@link Fragment} subclass.
  */
 public class InputFragment extends Fragment {

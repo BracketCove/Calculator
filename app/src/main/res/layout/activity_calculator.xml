@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root_activity_calculator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.wiseass.calculator.CalculatorActivity">
 
-    <fragment
-        android:id="@+id/frag_display"
+    <FrameLayout
+        android:id="@+id/cont_fragment_display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="com.wiseass.calculator.DisplayFragment"
         tools:layout="@layout/fragment_display"
         />
 
-    <fragment
-        android:id="@+id/frag_input"
+    <FrameLayout
+        android:id="@+id/cont_fragment_input"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:name="com.wiseass.calculator.InputFragment"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         tools:layout="@layout/fragment_input"
-        android:layout_below="@+id/frag_display"
         />
 
-</RelativeLayout>
+</LinearLayout>

@@ -4,6 +4,7 @@ import org.javia.arity.Symbols;
 import org.javia.arity.SyntaxException;
 
 /**
+ * This can be thought of as a "Service"
  * Created by Ryan on 15/11/2016.
  */
 
